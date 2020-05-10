@@ -1,0 +1,146 @@
+/********************************* Elements ***********************************/
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: grey;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Muli', sans-serif;
+}
+
+/*********************************** Sections *********************************/
+#greeting {
+  background-color: #66bfbf;
+  padding: 5% 0 5%;
+}
+
+#message {
+  background-color: #fcfefe;
+  padding: 15% 10% 10%;
+  position: relative;
+}
+
+#photos {
+  background-color: #f76b8a;
+  text-align: center;
+}
+
+#date {
+  background-color: #fcfefe;
+  padding: 200px 20%;
+  text-align: center;
+}
+
+#footer {
+  background-color: #66bfbf;
+  text-align: center;
+  padding: 7% 15%;
+  color: #fff;
+}
+
+/*********************************** Greeting *********************************/
+.greeting-title {
+  font-family: 'Candal', sans-serif;
+  font-size: 5rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.greeting-text {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+  margin: 5% 0;
+  color: #fff;
+}
+
+.greeting-box {
+  padding: 3% 12% 6%;
+}
+
+.flowers-image {
+  margin: 10% auto;
+  position: absolute;
+  right: 30%;
+}
+
+@media (max-width: 1028px) {
+  .flowers-image {
+    position: static;
+  }
+
+  .greeting-box {
+    text-align: center;
+  }
+}
+
+/****************************** Message ***************************************/
+.message-box {
+  text-align: center;
+}
+
+.message-text {
+  font-family: 'Permanent Marker', cursive;
+  font-weight: lighter;
+  font-size: 2.5rem;
+}
+
+.message-signature {
+  font-family: 'Permanent Marker', cursive;
+  font-weight: lighter;
+  font-size: 2.5rem;
+  text-align: right;
+  margin: 8% 0 0;
+}
+
+/********************************* Photos *************************************/
+.carousel-item {
+  padding: 5% 0;
+}
+
+.carousel-photo {
+  width: 40%;
+  height: auto;
+  border-radius: 5%;
+}
+
+@media (max-width: 1028px) {
+  .carousel-photo {
+    width: 90%;
+    height: auto;
+  }
+}
+
+/********************************** Date *************************************/
+.date-text {
+  font-family: 'Dancing Script', cursive;
+  font-size: 4rem;
+
+}
+
+.pink-flowers {
+  width: 40%;
+  height: auto;
+}
+
+@media (max-width: 1028px) {
+  .pink-flowers {
+    width: 70%;
+    height: auto;
+  }
+}
+
+/********************************* Footer *************************************/
+.footer-copyright {
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
+
+.social-icon {
+  margin: 20px;
+  font-size: 2rem;
+}
